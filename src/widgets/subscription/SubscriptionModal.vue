@@ -15,7 +15,7 @@
 import { useSubscriptionForm } from '@/entities/subscription/model/useSubscriptionForm';
 import type { Subscription } from '@/common/types/index';
 import Modal from '@/common/ui/BaseModal.vue';
-import NodeFilterRuleEditor from '@/common/ui/NodeFilterRuleEditor.vue';
+import NodeFilterRuleEditor from '@/widgets/subscription/NodeFilterRuleEditor.vue';
 
 const props = defineProps<{
     /** 显示状态 */
